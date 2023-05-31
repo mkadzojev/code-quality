@@ -1,9 +1,9 @@
 # Backend quality
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/toolkit/backend-quality.svg?style=flat-square)](https://packagist.org/packages/toolkit/backend-quality)
-[![Tests](https://github.com/toolkit/backend-quality/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/toolkit/backend-quality/actions/workflows/tests.yml)
-![](https://github.com/toolkit/backend-quality/workflows/Run%20Tests/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/toolkit/backend-quality.svg?style=flat-square)](https://packagist.org/packages/toolkit/backend-quality)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mikdev/backend-quality.svg?style=flat-square)](https://packagist.org/packages/mikdev/backend-quality)
+[![Tests](https://github.com/mkadzojev/backend-quality/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/mkadzojev/backend-quality/actions/workflows/tests.yml)
+![](https://github.com/mkadzojev/backend-quality/workflows/Run%20Tests/badge.svg?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/mikdev/backend-quality.svg?style=flat-square)](https://packagist.org/packages/mikdev/backend-quality)
 
 This package is a backend quality control package
 
