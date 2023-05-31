@@ -1,0 +1,60 @@
+{
+  "name": "mikdev/backend-quality",
+  "description": "Quality Control package",
+  "keywords": [
+    "quality",
+    "codestyle",
+    "phpmd",
+    "ecs",
+    "phpstan",
+    "phpmnd",
+    "phpcpd"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "nunomaduro/larastan": "^2.6",
+    "phpmd/phpmd": "^2.13",
+    "phpstan/phpdoc-parser": "^1.21",
+    "phpstan/phpstan": "^1.10",
+    "slevomat/coding-standard": "^8.12",
+    "squizlabs/php_codesniffer": "^3.7",
+    "symplify/coding-standard": "^11.3",
+    "symplify/easy-coding-standard": "^11.3"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.5"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Toolkit\\Quality\\": "src/",
+      "ToolkitCodingStandards\\": "ecs/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Toolkit\\Quality\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Toolkit\\Quality\\QualityServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

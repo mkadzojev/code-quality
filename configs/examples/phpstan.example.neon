@@ -1,0 +1,5 @@
+includes:
+    - vendor/toolkit/backend-quality/configs/phpstan.dist.neon
+
+parameters:
+  ignoreErrors: []
